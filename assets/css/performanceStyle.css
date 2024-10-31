@@ -1,0 +1,13 @@
+.card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+.card:hover {box-shadow: 0 8px 16px 0 #286090;}
+.container {padding: 2px 16px;}
+#pageloader{background: rgba( 255, 255, 255, 0.8 );display: none;height: 100%;position: fixed;width: 100%;z-index: 9999;}
+#pageloader img{left: 33%;position: absolute;top: 33%;}
+a:after, [class*="sprite-"] {display: inline-block;background-image: url('../img/sprite.svg');background-repeat: no-repeat;}
+.container h4{color:white;}
+.container p{font-weight:900;color:white;}
+#skip h4, h4 a{color:black;}
+#skip h4 a:hover{color:red;}
+#skip p{font-weight:bold;color:black;}
+.container {max-width: 100%;}
+

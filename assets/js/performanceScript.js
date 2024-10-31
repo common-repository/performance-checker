@@ -1,0 +1,2 @@
+jQuery(document).ready(function(){jQuery("#gt").on("click", function(){jQuery("#pageloader").fadeIn();});jQuery("#pagespeed").on("click", function(){jQuery("#pageloader").fadeIn();});});
+function goBack(){window.history.back();}
